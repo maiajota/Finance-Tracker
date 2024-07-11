@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.21.6/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Flow</title>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.6/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.6/dist/js/uikit-icons.min.js"></script>
+</head>
+<body>
+    <div class="page-grid">
+        <nav class="sidebar uk-visible@s">
+        </nav>
+        <main class="uk-container uk-flex uk-margin-auto-vertical uk-flex-wrap uk-flex-center">
+            <div class="chart-container uk-flex uk-flex-column uk-flex-between uk-width-1-1">
+                <div class="chart uk-margin-small-bottom" aria-percentage="70">
+                </div>
+                <h1 class="uk-margin-remove-vertical uk-text-bold container uk-text-center">R$450</h1>
+            </div>
+            <div class="balance-container uk-flex uk-flex-column uk-flex-between">
+                <div class="balance-incoming container uk-padding-small">
+                    <h3 class="uk-margin-remove-vertical uk-text-small uk-text-bold">Entrada</h3>
+                    <h4 class="uk-margin-remove-vertical uk-text-bold">R$1.500,00</h4>
+                </div>
+                <div class="balance-outgoing container uk-padding-small">
+                    <h3 class="uk-margin-remove-vertical uk-text-small uk-text-bold">Saída</h3>
+                    <h4 class="uk-margin-remove-vertical uk-text-bold">R$1.050,00</h4>
+                </div>
+                <div class="balance-button__container uk-flex uk-flex-between">
+                    <button class="container" uk-tooltip="title: Adicionar entrada">
+                        <img src="assets/img/ArrowUp.svg" alt="">
+                    </button>
+                    <button class="container" uk-tooltip="title: Adicionar saída">
+                        <img src="assets/img/ArrowDown.svg" alt="">
+                    </button>
+                    <button class="container" uk-tooltip="title: Editar">
+                        <img src="assets/img/Edit.svg" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="movements-container container uk-padding-small">
+                <h4 class="uk-text-bold uk-margin-remove-vertical">Movimentações</h4>
+                <h3 class="uk-margin-remove-vertical">Confira as suas últimas movimentações</h3>
+                <div class="table-container">
+                    <table class="uk-table uk-table-divider uk-text-truncate uk-overflow-auto">
+                        <thead>
+                            <tr>
+                                <th>Descrição</th>
+                                <th>Data</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <td>Salário</td>
+                            <td>05/07/2024</td>
+                            <td>R$1095,40</td>
+                        </tr>
+                        <tr>
+                            <td>Fatura</td>
+                            <td>05/07/2024</td>
+                            <td>R$1095,40</td>
+                        </tr>
+                        <tr>
+                            <td>Salário</td>
+                            <td>05/07/2024</td>
+                            <td>R$1095,40</td>
+                        </tr>
+                        <tr>
+                            <td>Fatura</td>
+                            <td>05/07/2024</td>
+                            <td>R$1095,40</td>
+                        </tr>
+                        <tr>
+                            <td>Salário</td>
+                            <td>05/07/2024</td>
+                            <td>R$1095,40</td>
+                        </tr>
+                        <tr>
+                            <td>Fatura</td>
+                            <td>05/07/2024</td>
+                            <td>R$1095,40</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
